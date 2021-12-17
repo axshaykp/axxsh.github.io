@@ -1,20 +1,35 @@
 body {
-	background-color: #fecd45;
-	font-family: 'Bakbak One', cursive;
+	background-color: black;
+	font-family: 'Orbitron', sans-serif;
 	text-align: center;
 }
 
 h1 {
-	color: #2568fb;
-	font-family: 'Bakbak One', cursive;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
 	text-align: center;
 }
 
-p {
-	color: black;
+p.bottom {
+	color: grey;
 }
 
-.tenor-gif-embed {
-	margin-left: auto;
-	margin-right: auto;
+main {
+	color: white;
+}
+
+a:link {
+  color: #a8dadc;
+}
+
+a:visited {
+  color: #f1faee;
+}
+
+a:hover {
+  color: #457b9d;
+}
+
+a:active {
+  color: #e63946;
 }
