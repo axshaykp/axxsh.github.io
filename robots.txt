@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://akshaykp.xyz/sitemap.xml
