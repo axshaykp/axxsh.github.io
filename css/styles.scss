@@ -19,6 +19,10 @@ body{
     @include for-phone-only{
         margin: 1rem;
     }
+
+    @include for-tablet-portrait-up{
+    	width: 95%;
+    }
 }
 
 header{
