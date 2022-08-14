@@ -66,6 +66,14 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+  color: #f4db7d;
+}
+a:hover {
+  color: #9daaf2;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -97,12 +105,13 @@ header .navbar li {
   margin: 10%;
   text-align: end;
   /*a:hover,
-  a:focus{
-      color: $hover;
-  }*/
+        a:focus{
+            color: $hover;
+        }*/
 }
 @media (max-width: 599px) {
   header .navbar li {
+    margin: auto;
     margin-bottom: 2%;
   }
 }
@@ -201,6 +210,9 @@ header .navbar li a {
   }
 }
 
+footer {
+  padding-top: 14rem;
+}
 footer a {
   text-decoration: none;
   color: #f4db7d;
